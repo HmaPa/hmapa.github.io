@@ -1,0 +1,322 @@
+@media (max-width: 1611px){
+    .container{
+        width: 91.40625%;
+    }
+    .header .logoNtext_wrapper {
+        margin-bottom: 182px;
+    }
+    .main_title{
+        font-size: 64px;
+        line-height: 74px;
+        width: 87%;
+        margin: 0 auto;
+        margin-bottom: 178px;
+    }
+    .h1_2stline {
+        z-index: 2;
+        position: relative;
+        margin: 0 0 0 110px;
+    }
+    .header__rectangle {
+        left: 38%;
+        top: 24%;
+    }
+    .header__btn_wrapper {
+        margin-top: 108px;
+    }
+    .header{
+        padding: 54px 0 88px 0;
+    }
+    .soccer_bg, .basket_bg{
+        height: 468px;
+    }
+    .soccer_img{
+        height: 699px;
+    }
+    .basket_img{
+        height: 660px;
+    }
+    .athlets__img_wrap {
+        position: absolute;
+        top: 100px;
+        left: -29%;
+    }
+    .adv_wrap {
+        width: 68%;
+        padding: 0 0 0 8px;
+    }
+    .athlets__title {
+        width: 68%;
+        margin-left: auto;
+        margin-bottom: 15px;
+        padding-top: 80px;
+    }
+    .adv__item{
+        padding: 35px 0;
+    }
+    .players__container{
+        right: 0;
+        height: 690px;
+        overflow: hidden;
+    }
+    .players__img_wrap {
+        width: 100%;
+        height: 100%;
+        right: -50%;
+    }
+    .basket_img {
+        padding-bottom: 0;
+        top: -40px;
+    }
+    .basket_bg {
+        right: 80px;
+    }
+    .players__title {
+        width: 68%;
+        margin-right: auto;
+        margin-bottom: 15px;
+        padding-top: 80px;
+    }
+
+    .card {
+        align-items: flex-start;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .card__photo {
+        max-height: 584px;
+        width: 100%;
+    }
+    .card__number, .card-rtl .card__number {
+        right: auto;
+        top: 0;
+        left: 33px;
+        margin-top: -60px;
+        padding: 40px 45px;
+    }
+    .card__descr, .card-rtl .card__descr {
+        padding: 80px 0 0 33px;
+        margin-bottom: 60px;
+    }
+    .card__p {
+        margin-top: 30px;
+    }
+    .card__p::after {
+        margin: 30px 0 0 0;
+    }
+    .footer__app_icon {
+        margin-right: 0;
+        margin-bottom: 70px;
+        width: 100%;
+    }
+    .footer .main_title{
+        margin-bottom: 14px;
+        font-size: 80px;
+        width: 100%;
+        text-align: center;
+    }
+    .footer .subtitle{
+        text-align: center;
+    }
+    .footer__btn_wrapper{
+        margin-top: 185px;
+    }
+    .footer .logo_link, .footer .footer__text{
+        display: none;
+    }
+    .footer .logoNtext_wrapper{
+        justify-content: center;
+    }
+    .footer__bottom{
+        padding: 33px 0;
+    }
+}
+
+@media (max-width: 767px){
+    .container{
+        width: 93.125%;
+    }
+    .header__text{
+        display: none;
+    }
+    .logoNtext_wrapper{
+        margin: 0 auto;
+    }
+    .header{
+        padding: 29px 0 16px 0;
+    }
+    .h1_2stline {
+        margin: 0;
+        max-width: 245px;
+    }
+    .header__rectangle {
+        left: 27%;
+        width: 139px;
+        top: 27%;
+    }
+    .header .logoNtext_wrapper {
+        margin-bottom: 135px;
+    }
+    .header__container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .nav_wrapper{
+        order: 1;
+    }
+    .nav__ul {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    .nav__li {
+        width: calc(100% / 3);
+        margin: 4px 0;
+    }
+    .header__btn_wrapper {
+        margin: 0 0 40px 0;
+    }
+    .btn{
+        width: 142px;
+        height: 39px;
+        padding-left: 45px;
+        border-radius: 30px;
+    }
+    .btn-google{
+        background: #5e42b0 url(../img/google_play_icon.png) no-repeat 20px center / 17px;
+    }
+    
+    .btn-apple{
+        background: #5e42b0 url(../img/apple_icon.png) no-repeat 20px center / 17px;
+    }
+    .btn_text, .btn__light_text{
+        font-size: 8px;
+        line-height: 10px;
+    }
+    .light_text{
+        font-size: 12px;
+        line-height: 14px;
+    }
+    .btn:nth-child(2n-1) {
+        margin-right: 0;
+    }
+    .btn_wrapper{
+        justify-content: space-evenly;
+    }
+    .title{
+        font-size: 50px;
+    }
+    .main_title{
+        font-size: 32px;
+        line-height: 40px;
+        margin-bottom: 110px;
+        width: 100%;
+    }
+    .athlets__title, .players__title{
+        width: 100%;
+        margin-left: 6px;
+    }
+    .adv_wrap {
+        width: 100%;
+        padding: 0 0 0 6px;
+        margin: 0;
+    }
+    .subtitle{
+        font-size: 28px;
+    }
+    .players__container, .players__container{
+        width: 100%;
+    }
+    .players__container{
+        position: relative;
+        height: auto;
+    }
+    .adv__descr {
+        font-size: 15px;
+        line-height: 18px;
+    }
+    .athlets__img_wrap, .players__img_wrap{
+        position: static;
+        min-height: 347px;
+    }
+    .players__img_wrap{
+        min-height: 235px;
+        height: auto;
+    }
+    .soccer_bg, .soccer_img, .basket_bg, .basket_img{
+        width: 80%;
+        top: 30%;
+        left: 50%;
+        margin-left: -40%;
+        height: auto;
+    }
+    .basket_bg, .basket_img{
+        width: 96%;
+        margin-left: -48%;
+    }
+    .soccer_bg, .basket_bg{
+        top: 0;
+    }
+    .soccer_img, .basket_img{
+        position: relative;
+    }
+    .athlets, .players{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .title_container{
+        order: -1;
+    }
+    .athlets__title, .players__title{
+        margin-top: 25px;
+        padding-top: 0;
+    }
+    .card__number, .card-rtl .card__number {
+        left: 19px;
+        margin-top: -65px;
+        padding: 25px 27px;
+    }
+    .card__photo {
+        max-height: 351px;
+    }
+    .card__descr, .card-rtl .card__descr {
+        padding: 35px 0 0 19px;
+        margin-bottom: 50px;
+    }
+    .card__p {
+        margin-top: 20px;
+    }
+    .card__p::after {
+        margin: 20px 0 0 0;
+    }
+    .footer__app_icon {
+        margin-bottom: 50px;
+    }
+    .footer .main_title{
+        margin-bottom: 8px;
+        font-size: 34px;
+    }
+    .footer .subtitle{
+        font-size: 15px;
+    }
+    .footer__btn_wrapper{
+        margin-top: 65px;
+    }
+    .footer__bottom{
+        padding: 16px 0;
+    }
+    .footer__top{
+        padding-top: 95px;
+        padding-bottom: 125px;
+    }
+    .footer_rectangle_right, .footer__title_wrap:hover .footer_rectangle_right{
+        transform: scale(0.55);
+        top: -132px;
+        right: -60px;
+    }
+    .footer_rectangle_left, .footer__title_wrap:hover .footer_rectangle_left{
+        transform: scale(0.55);
+        top: -40px;
+        left: 0px;
+    }
+}
