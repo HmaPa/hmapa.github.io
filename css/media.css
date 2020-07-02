@@ -133,6 +133,10 @@
 }
 
 @media (max-width: 767px){
+
+    
+       
+    
     .container{
         width: 93.125%;
     }
@@ -249,10 +253,30 @@
         left: 50%;
         margin-left: -40%;
         height: auto;
+        padding-bottom: 0;
+    }
+    .athlets__img_wrap:hover .soccer_img, .athlets__img_wrap:hover .soccer_bg{
+        width: 80%;
+        top: 30%;
+        left: 50%;
+        margin-left: -40%;
+        height: auto;
+        padding-bottom: 0;
+    }
+    .athlets__img_wrap:hover .soccer_bg{
+        top: 0;
     }
     .basket_bg, .basket_img{
         width: 96%;
         margin-left: -48%;
+    }
+    .players__img_wrap:hover .basket_img{
+        width: 96%;
+        margin-left: -48%;
+        top: 30%;
+    }
+    .players__img_wrap:hover .basket_bg{
+        top: 0;
     }
     .soccer_bg, .basket_bg{
         top: 0;

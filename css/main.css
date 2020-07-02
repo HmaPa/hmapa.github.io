@@ -365,7 +365,7 @@ img, svg{
     color: #fff;
 }
 
-.players .adv__item:nth-child(3) .adv__number{
+.adv__item:nth-child(3) .adv__number{
     color: #fff;
 }
 
