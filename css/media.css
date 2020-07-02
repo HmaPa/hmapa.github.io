@@ -39,7 +39,7 @@
     .athlets__img_wrap {
         position: absolute;
         top: 100px;
-        left: -29%;
+        left: -200px;
     }
     .adv_wrap {
         width: 68%;
@@ -62,7 +62,7 @@
     .players__img_wrap {
         width: 100%;
         height: 100%;
-        right: -50%;
+        right: -350px;
     }
     .basket_img {
         padding-bottom: 0;
